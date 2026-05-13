@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="logo">MyName</div>
+        <div class="logo">PhươngLinh</div>
         <!-- Checkbox ẩn để điều khiển menu mobile -->
         <input type="checkbox" id="menu-check" class="menu-check">
         <label for="menu-check" class="hamburger">☰</label>
@@ -28,7 +33,7 @@
 
     <main>
         <section class="hero">
-            <h1>Hi, I'm <span class="highlight">[Your Name]</span></h1>
+            <h1>Hi, I'm <span class="highlight">[Phương Linh]</span></h1>
             <p>Full-Stack Developer | UI Designer | Problem Solver</p>
             <a href="#portfolio" class="cta-button">View My Work</a>
         </section>
@@ -37,7 +42,7 @@
             <div class="container">
                 <div class="about-grid">
                     <div class="about-image">
-                        <img src="https://via.placeholder.com/400x400" alt="Profile Photo">
+                        <img src="https://anhdep.online/wp-content/gallery/anh-cho-samoyed-cute/1_anh-cho-samoyed-cute-1.jpg" alt="Profile Photo">
                     </div>
                     <div class="about-content">
                         <h2>About Me</h2>
@@ -56,17 +61,30 @@
                     <div class="skill-item">
                         <span class="skill-name">HTML5</span>
                         <div class="skill-bar">
-                            <div class="skill-progress" style="width: 95%"></div>
+                            <div class="skill-progress" style="width: 50%"></div>
                         </div>
                     </div>
 
                     <div class="skill-item">
                         <span class="skill-name">CSS3</span>
                         <div class="skill-bar">
-                            <div class="skill-progress animate" style="width: 85%"></div>
+                            <div class="skill-progress animate" style="width: 45%"></div>
                         </div>
                     </div>
                     
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress animate" style="width: 20%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <span class="skill-name">C</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress animate" style="width: 70%"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -84,7 +102,11 @@
                 <div class="portfolio-grid">
 
                     <div class="portfolio-item" data-category="web">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                        <a href="#lightbox-1">
+                            <img
+                                src="https://haycafe.vn/wp-content/uploads/2022/04/Tai-anh-cho-hai.jpeg"
+                                alt="Project 1">
+                        </a>
                         <div class="portfolio-overlay">
                             <h3>E-Commerce Website</h3>
                             <p>React + Node.js</p>
@@ -92,7 +114,11 @@
                     </div>
 
                     <div class="portfolio-item" data-category="web">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                        <a href="#lightbox-2">
+                            <img
+                                src="https://vienmoitruong5014.org.vn/wp-content/uploads/2023/03/hinh-anh-cho-de-thuong-va-dep_022908008.jpg"
+                                alt="Project 2">
+                        </a>
                         <div class="portfolio-overlay">
                             <h3>E-Commerce Website</h3>
                             <p>React + Node.js</p>
@@ -100,7 +126,11 @@
                     </div>
 
                     <div class="portfolio-item" data-category="web">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                        <a href="#lightbox-3">
+                            <img
+                                src="https://haycafe.vn/wp-content/uploads/2022/04/Tai-anh-cho-hai.jpeg"
+                                alt="Project 3">
+                        </a>
                         <div class="portfolio-overlay">
                             <h3>E-Commerce Website</h3>
                             <p>React + Node.js</p>
@@ -108,29 +138,40 @@
                     </div>
 
                     <div class="portfolio-item" data-category="web">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                        <a href="#lightbox-4">
+                            <img
+                                src="https://haycafe.vn/wp-content/uploads/2022/04/Tai-anh-cho-hai.jpeg"
+                                alt="Project 4">
+                        </a>
                         <div class="portfolio-overlay">
                             <h3>E-Commerce Website</h3>
                             <p>React + Node.js</p>
                         </div>
-                    </div>
-
-                    <div class="portfolio-item" data-category="web">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
-                        <div class="portfolio-overlay">
-                            <h3>E-Commerce Website</h3>
-                            <p>React + Node.js</p>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item" data-category="web">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
-                        <div class="portfolio-overlay">
-                            <h3>E-Commerce Website</h3>
-                            <p>React + Node.js</p>
-                        </div>
-                    </div>
+                    </div>        
                     
+                    <div class="portfolio-item" data-category="web">
+                        <a href="#lightbox-5">
+                            <img
+                                src="https://haycafe.vn/wp-content/uploads/2022/04/Tai-anh-cho-hai.jpeg"
+                                alt="Project 5">
+                        </a>
+                        <div class="portfolio-overlay">
+                            <h3>E-Commerce Website</h3>
+                            <p>React + Node.js</p>
+                        </div>
+                    </div>    
+
+                    <div class="portfolio-item" data-category="web">
+                        <a href="#lightbox-6">
+                            <img
+                                src="https://haycafe.vn/wp-content/uploads/2022/04/Tai-anh-cho-hai.jpeg"
+                                alt="Project 6">
+                        </a>
+                        <div class="portfolio-overlay">
+                            <h3>E-Commerce Website</h3>
+                            <p>React + Node.js</p>
+                        </div>
+                    </div>    
                 </div>
             </div>
 
@@ -182,6 +223,7 @@
                             <span>Hanoi, Vietnam</span>
                         </div>
                     </div>
+
                     <form class="contact-form">
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -208,21 +250,24 @@
                 <div class="footer-logo">YourName</div>
                 <p class="footer-tagline">Building digital experiences</p>
                 <div class="social-links">
+
                     <a href="#" class="social-link" aria-label="GitHub">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                         </svg>
                     </a>
                     <a href="#" class="social-link" aria-label="LinkedIn">
-                        <svg><!-- LinkedIn icon --></svg>
+                        <svg>width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-1 1.8-2.2 3.8-2.2 4 0 4.8 2.6 4.8 6V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9s-2.8 1.8-2.8 3.8V24h-4V8z"/></svg>
                     </a>
                     <a href="#" class="social-link" aria-label="Email">
-                        <svg><!-- Email icon --></svg>
+                        <svg>width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2 4h20c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v.5l10 6.5 10-6.5V6H2zm20 12V9.2l-9.4 6.1c-.4.3-.8.3-1.2 0L2 9.2V18h20z"/>/></svg>
                     </a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 YourName. All rights reserved.</p>
+                <p>&copy; 2026 PhươngLinh. All rights reserved.</p>
             </div>
         </div>
     </footer>
